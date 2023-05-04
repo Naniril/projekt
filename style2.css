@@ -1,0 +1,146 @@
+h1{font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: 2px 1px 1px #f0eed2;
+    font-size: xx-large;
+    transition: 2s}
+
+
+body{display:flex;
+    align-items: center;
+    margin-top: 50px;
+     justify-content:space-around;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     background-color: #aad6ec;}
+
+.main {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 1.5rem;
+
+}
+.main p{margin-top: 50px;}
+
+
+.erste{margin: 30px;
+    border-radius: 30px;
+    background-image:url("c1.jpg");
+    background-size: contain;
+    color: #eef9ff;
+/* kkoko */
+    display: block;
+    padding: 30px;
+
+}
+
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve,.thirteen,.fourteen.fifteen
+{flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #eef9ff;
+   /* 影の深み　高さ　広さ */
+    box-shadow: 20px 10px 10px #fc9d9d;
+   /* 枠の丸み */
+    border-radius: 300px ;
+    padding: 20px;
+    gap: 20px;
+}
+.one.two.three.four.five.six.seven.eight.nine.ten.eleven.twelve.thirteen.fourteen.fifteen
+ img{
+    width: 100px; 
+    margin: 20px;
+    height: 300px;
+    padding: 20px ;
+}    
+
+
+
+#pic_frame{text-align: center;}
+
+.one ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.two ul {display: flex;
+        text-align: center;
+        justify-content: space-around;}
+        
+.three ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.four ul {display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.five ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.six ul{display: flex;
+    text-align: center;
+    justify-content: space-around;
+    }
+
+.seven ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.eight ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.nine ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.ten ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.eleven ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.twelve ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.thirteen ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.fourteen ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+.fifteen ul{display: flex;
+    text-align: center;
+    justify-content: space-around;}
+
+/* 大きさが合わなくて調整してもらった */
+section >div >ul{list-style: none;}       
+
+section >div>ul img
+    {width: 500px; 
+    margin: 20px;
+    height: 400px;
+    padding: 20px ;}
+
+main >div >ul{list-style: none;}  
+
+.sixteen ul{display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+   }
+
+.menu-group{font-family: cursive;
+            font-style: oblique;
+            list-style-type: circle;
+            display: flex;
+            gap: 80px;}
